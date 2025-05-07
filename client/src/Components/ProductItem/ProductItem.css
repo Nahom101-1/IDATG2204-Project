@@ -1,0 +1,27 @@
+.product-container {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    padding: 16px;
+    border-radius: 4px;
+    background-color: var(--secondary-dark);
+    box-sizing: border-box;
+}
+
+.product-image {
+    background-color: var(--secondary-dark);
+    width: 100%;
+    flex: 1;
+}
+
+.product-info {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.product-info h3 {
+    color: grey;
+}
